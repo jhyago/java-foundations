@@ -74,6 +74,30 @@ public class Main {
         doubleNumber = sc.nextDouble(); /*Locale is counted here, so, Locale.setDefault should be considered*/
         System.out.println("Double: " + doubleNumber);
 
+        char character;
+
+        character = sc.next().charAt(0); /*Takes the first position*/
+        System.out.println("Character: " + character);
+
+        String j = sc.next();
+        int k = sc.nextInt();
+        double l = sc.nextDouble();
+
+        System.out.println("Data: ");
+        System.out.println(j);
+        System.out.println(k);
+        System.out.println(l);
+
+        /* ------ Read text up to the line break ------- */
+
+        String s1 = sc.nextLine();
+        String s2 = sc.nextLine();
+        String s3 = sc.nextLine();
+
+        System.out.println("String 1: " + s1);
+        System.out.println("String 2: " + s2);
+        System.out.println("String 3: " + s3);
+
         sc.close();
 
     }
