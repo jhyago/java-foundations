@@ -21,7 +21,7 @@ public class Main {
 
         System.out.printf("%s is %d years old and has an income of %.2f dollars%n", name, age, income);
 
-        /* -------------- Practice ---------------- */
+        /* -------------- Practice -------------- */
 
         String product1 = "Computer";
         String product2 = "Office desk";
@@ -42,7 +42,7 @@ public class Main {
 
         System.out.printf(Locale.US, "%nUS decimal point: %.3f%n", measure);
 
-        /* -------- Casting example -------- */
+        /* -------------- Casting example -------------- */
 
         int b;
         int B;
@@ -57,13 +57,12 @@ public class Main {
 
         System.out.println(area);
 
-        /* ------- Input example --------- */
+        /* -------------- Input example -------------- */
 
         Scanner sc = new Scanner(System.in);
 
         String word = sc.next();
         System.out.println("You wrote: " + word);
-
 
         int number;
 
@@ -89,9 +88,9 @@ public class Main {
         System.out.println(k);
         System.out.println(l);
 
-        /* ------ Read text up to the line break ------- */
+        /* -------------- Read text up to the line break -------------- */
 
-        /* If there is a reading of another type, it will leave a line break pending that will be absorbed by the first nextLine later on, so a trick to also read an integer would be to add another nextLine alone. */
+        /*If there is a reading of another type, it will leave a line break pending that will be absorbed by the first nextLine later on, so a trick to also read an integer would be to add another nextLine alone*/
         String s1 = sc.nextLine();
         String s2 = sc.nextLine();
         String s3 = sc.nextLine();
@@ -100,8 +99,7 @@ public class Main {
         System.out.println("String 2: " + s2);
         System.out.println("String 3: " + s3);
 
-
-        /* Mathematical functions */
+        /* -------------- Mathematical functions -------------- */
         double n1 = 3.0;
         double n2 = 4.0;
         double n3 = -5.0;
@@ -126,7 +124,7 @@ public class Main {
         System.out.println("Absolute value of " + n2 + " = " + N1);
         System.out.println("Absolute value of " + n3 + " = " + N2);
 
-        /* Simple Conditional Structure */
+        /* -------------- Simple Conditional Structure -------------- */
 
         int hour = 6;
 
@@ -134,7 +132,7 @@ public class Main {
             System.out.println("Good Morning!");
         }
 
-        /* Composed Conditional Structure*/
+        /* -------------- Composed Conditional Structure -------------- */
 
         System.out.println("What time is it? ");
         hour = sc.nextInt();
@@ -145,7 +143,7 @@ public class Main {
             System.out.println("Good afternoon!");
         }
 
-        /* Chaining of conditional structures */
+        /* -------------- Chaining of conditional structures -------------- */
 
         System.out.println("What time is it? ");
         hour = sc.nextInt();
@@ -158,8 +156,9 @@ public class Main {
             System.out.println("Goodnight!");
         }
 
+        /* -------------- Switch Case -------------- */
 
-        /* Switch Case - Exercise - make a program to read an integer value from 1 to 7 representing a day of the week (where 1 = Sunday and so on). Write the corresponding day of the week on the screen. */
+        /*Exercise - make a program to read an integer value from 1 to 7 representing a day of the week (where 1 = Sunday and so on). Write the corresponding day of the week on the screen*/
 
         System.out.println("Enter the day: ");
         int weekDay = sc.nextInt();
@@ -194,7 +193,7 @@ public class Main {
 
         System.out.println("Day of week: " + day);
 
-        /* ------ ternary expression -------- */
+        /* -------------- ternary expression -------------- */
 
         double price = 34.5;
         double discount = 0;
@@ -203,6 +202,5 @@ public class Main {
         System.out.println(discount);
 
         sc.close();
-
     }
 }
