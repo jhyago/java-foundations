@@ -1,5 +1,4 @@
 ### IntelliJ IDEA ###
-!**/programming-concepts/src/.idea
-out/
-!**/programming-concepts/src/main/**/out/
-!**/programming-concepts/src/test/**/out/
+programming-concepts/src/.idea
+programming-concepts/src/main/**/out/
+programming-concepts/src/test/**/out/
